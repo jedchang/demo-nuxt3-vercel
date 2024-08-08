@@ -1,0 +1,47 @@
+{
+  // ESLint 啟用新的設定
+  // "eslint.useFlatConfig": true,
+  // ESLint 格式化啟用
+  // "eslint.format.enable": true,
+  // VSCode 存檔時自動修正 ESLint 錯誤
+
+  // "eslint.useFlatConfig": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Vue SFC 中 <script> 和 <style> 進行縮排
+  "prettier.vueIndentScriptAndStyle": true,
+
+  // 針對 .js 檔案格式化工具
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // // 針對 .vue 檔案格式化工具
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // "editor.defaultFormatter": "Vue.volar"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ESLint 啟用的附檔名
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".ts", ".cjs"]
+  },
+  // ESLint 驗證類型
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    "typescript"
+  ],
+  "cSpell.words": ["dotfiles", "Nuxt"]
+}
