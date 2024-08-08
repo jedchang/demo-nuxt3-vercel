@@ -12,10 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "engines": {
-    "node": ">=20.15.0",
-    "pnpm": ">=9.4.0",
-    "npm": "please-use-pnpm",
-    "yarn": "please-use-pnpm"
+    "node": ">=20.15.0"
   },
   "dependencies": {
     "nuxt": "^3.12.4",

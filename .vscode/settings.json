@@ -43,5 +43,5 @@
     "vue",
     "typescript"
   ],
-  "cSpell.words": ["dotfiles", "Nuxt"]
+  "cSpell.words": ["dotfiles", "Nuxt", "popperjs"]
 }
