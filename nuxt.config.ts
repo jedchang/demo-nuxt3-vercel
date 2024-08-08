@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/demo-nuxt3/' : '/',
+    // baseURL: process.env.NODE_ENV === 'production' ? '/demo-nuxt3/' : '/',
     buildAssetsDir: '/static/',
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }]
